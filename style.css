@@ -17,6 +17,10 @@
   font-size: 19px;
 }
 
+.nav-bar{
+  display: none;
+}
+
 .nav{
   display: flex;
   justify-content: space-between;
@@ -40,7 +44,7 @@
   top: 15rem;
   left: 90px;
   border-radius: 20px;
-  font-size: larger;
+
 
 }
 
@@ -51,11 +55,11 @@
 }
 
 .feature-section-text{
-  padding: 9rem 9rem;
+  padding: 150px 50px;
   background-color: rgb(230, 230, 178);
   border-radius: 1rem;
   margin-left: 0.6rem;
-  font-size: larger;
+
 }
 
 .feature-section{
@@ -74,16 +78,22 @@
 }
 
 .grid1{
-  padding: 3rem 3rem;
+  padding: 20px 20px;
   background-color: rgb(172, 192, 141);
   border-radius: 1rem;
+  height: 10rem;
+  width: 15rem;
 }
 .jobs{
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 7rem;
   margin-left: 6rem;
+  margin-right: 11rem;
   margin-bottom: 5rem;
 }
+
 @media(max-width: 1280px){
   .hero-image{
     max-width: 110vw;
@@ -98,13 +108,74 @@
     margin-top: 8rem;
   }
   .feature-section-text{
-    padding: 7rem 6rem;
+    padding: 8.5rem 6rem;
   }
 .jobs{
   margin: 1rem 1.5rem;
 }
-.grid1{
-  padding: 3rem 3rem;
-}
+
 
 }
+
+@media(max-width:360px){
+
+  .hero-image{
+    width: 95vw;
+    margin-left: 10px;
+  }
+
+  .nav-link{
+    display: none;
+  }
+  .nav-bar{
+    display: flex;
+    margin-left: 170px;
+  }
+
+  .nav{
+    margin-left: 0.5rem;
+  }
+
+  .feature-section{
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+  }
+  .feature-section-text{
+    padding: 20px 20px;
+    margin-top: 40px;
+  }
+  .ftext{
+    text-align: center;
+    font-size: 15px;
+  
+  }
+
+  .hero-section-text1{
+    padding: 15px 15px;
+    top: 5rem;
+    left: 20px;
+    font-size: 11px;
+  }
+
+  .feature-image img{
+    width: 170px;
+    align-items: center;
+  }
+  .feature-image{
+    margin-left: 1px;
+  }
+  
+  .jobs {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+}
+  
+
+
+
+
+
