@@ -92,9 +92,10 @@
   margin-left: 6rem;
   margin-right: 11rem;
   margin-bottom: 5rem;
-}
+} 
 
-@media(max-width: 1280px){
+
+@media (max-width: 1280px) {
   .hero-image{
     max-width: 110vw;
     margin-left: 2rem;
@@ -117,7 +118,7 @@
 
 }
 
-@media(max-width:360px){
+@media (max-width: 360px) {
 
   .hero-image{
     width: 95vw;
