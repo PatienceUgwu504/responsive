@@ -51,7 +51,7 @@
 }
 
 .feature-section-text{
-  padding: 9rem 10rem;
+  padding: 9rem 9rem;
   background-color: rgb(230, 230, 178);
   border-radius: 1rem;
   margin-left: 0.6rem;
@@ -74,13 +74,13 @@
 }
 
 .grid1{
-  padding: 4rem 4rem;
+  padding: 3rem 3rem;
   background-color: rgb(172, 192, 141);
   border-radius: 1rem;
 }
 .jobs{
   display: flex;
-  gap: 4rem;
+  gap: 7rem;
   margin-left: 6rem;
   margin-bottom: 5rem;
 }
