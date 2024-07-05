@@ -33,7 +33,6 @@
   width: 95vw;
   height: 85vh;
   margin-top: 0.5rem;
-  margin-left: 2rem;
   position: relative;
 }
 
@@ -51,7 +50,6 @@
 .feature-image{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
 
 .feature-section-text{
@@ -66,14 +64,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5rem 1rem;
   
 }
 
 .ftext{
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
   font-size: larger;
 }
 
@@ -89,94 +83,123 @@
   justify-content: center;
   align-items: center;
   gap: 7rem;
-  margin-left: 6rem;
-  margin-right: 11rem;
   margin-bottom: 5rem;
 } 
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1440px){
   .hero-image{
-    max-width: 110vw;
-    margin-left: 2rem;
+    width: 100%;
   }
   .nav{
-    margin-right: 5rem;
+  margin-right: 5rem;
   }
-
   .feature-section{
-    margin-right: 2rem;
-    margin-top: 8rem;
+  width: 100%;
+  margin-top: 5rem;
   }
-  .feature-section-text{
-    padding: 8.5rem 6rem;
-  }
-.jobs{
-  margin: 1rem 1.5rem;
-}
-
-
-}
-
-@media (max-width: 360px) {
-
-  .hero-image{
-    width: 95vw;
-    margin-left: 10px;
-  }
-
-  .nav-link{
-    display: none;
-  }
-  .nav-bar{
-    display: flex;
-    margin-left: 170px;
-  }
-
-  .nav{
-    margin-left: 0.5rem;
-  }
-
-  .feature-section{
-    flex-direction: column;
+  .jobs{
     align-items: center;
-    margin: 20px 10px;
-  }
-  .feature-section-text{
-    padding: 20px 20px;
-    margin-top: 40px;
   }
   .ftext{
     text-align: center;
-    font-size: 15px;
-  
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
-
-  .hero-section-text1{
-    padding: 15px 15px;
-    top: 5rem;
-    left: 20px;
-    font-size: 11px;
   }
-
-  .feature-image img{
-    width: 170px;
-    align-items: center;
+  @media (max-width: 1024px){
+    .nav-link{
+      margin-left: 15rem;
+    }
+    .img1{
+      width: 15rem;
+    }
+    .feature-section-text{
+      margin-left: 5rem;
+      padding: 8rem 5rem;
+    }
+    
   }
-  .feature-image{
-    margin-left: 1px;
+  @media (max-width: 768px){
+    .hero-image{
+      width: 100%;
+    }
+    .nav-link{
+      margin-left: 8rem;
+    }
+    .feature-section{
+      flex-direction: column-reverse;
+      gap: 5rem;
+      margin-right: 5rem;
+    }
+    .jobs{
+      flex-direction: column;
+      gap: 3rem;
+    }
+    .ftext{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
   }
-  
-  .jobs {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+  @media (max-width: 425px){
+    .nav-link{
+      display: none;
+    }
+    .nav-bar{
+      display: flex;
+      margin-left: 25rem;
+    }
+    .hero-image{
+      width: 158.8%;
+    }
+    .feature-image{
+      margin-left: 10rem;
+    }
+    .feature-section-text{
+      width: 52.5rem;
+      text-align: center;
+      padding-left: 15rem;
+    }
+    .ftext{
+      text-align: center;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      width: 155%;
+    }
+    .jobs{
+      margin-left: 15rem;
+      gap: 3rem;
+    }
+    .hero-section-text1{
+      top: 7rem;
+      left: 1rem;
+    }
   }
-
+  @media (max-width: 375px){
+    .hero-image{
+      width: 172.3%;
+    }
+    .hero-section-text1{
+      top: 7rem;
+      left: 1rem;
+    }
+    
+  }
+  @media (max-width: 320px){
+    .hero-image{
+      width: 192.5%;
+    }
+    .hero-section-text1{
+      top: 7rem;
+      left: 1rem;
+    }
+    .ftext{
+      width: 192%;
+    }
+    .feature-image{
+      align-content: center;
+    }
+    .jobs{
+      margin-left: 20rem;
+  }
 }
-  
-
-
-
-
-
