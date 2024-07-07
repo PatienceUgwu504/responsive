@@ -91,6 +91,9 @@
 
 
 @media (max-width: 1440px){
+  .body{
+    overflow-x: hidden;
+  }
   .hero-image{
     width: 100%;
   }
@@ -111,19 +114,28 @@
   }
   }
   @media (max-width: 1024px){
+    .body{
+      overflow-x: hidden;
+    }
     .nav-link{
       margin-left: 15rem;
     }
-    .img1{
+
+    .img2{
       width: 15rem;
     }
     .feature-section-text{
-      margin-left: 5rem;
-      padding: 8rem 5rem;
+      padding: 5rem 2rem;
+    }
+    .jobs{
+      gap: 1rem;
     }
     
   }
   @media (max-width: 768px){
+    .body{
+      overflow-x: hidden;
+    }
     .hero-image{
       width: 100%;
     }
@@ -145,6 +157,9 @@
     }
   }
   @media (max-width: 425px){
+    .body{
+      overflow-x: hidden;
+    }
     .nav-link{
       display: none;
     }
@@ -155,14 +170,13 @@
     .hero-image{
       width: 158.8%;
     }
-    .feature-image{
-      margin-left: 10rem;
-    }
     .feature-section-text{
-      width: 52.5rem;
-      text-align: center;
-      padding-left: 15rem;
+      width: 480px;
     }
+    .feature-section{
+      margin-left: 8rem;
+    }
+    
     .ftext{
       text-align: center;
       padding-top: 5rem;
@@ -179,8 +193,11 @@
     }
   }
   @media (max-width: 375px){
+    .body{
+      overflow-x: hidden;
+    }
     .hero-image{
-      width: 172.3%;
+      width: 172.5%;
     }
     .hero-section-text1{
       top: 7rem;
@@ -189,6 +206,9 @@
     
   }
   @media (max-width: 320px){
+    .body{
+      overflow-x: hidden;
+    }
     .hero-image{
       width: 192.5%;
     }
